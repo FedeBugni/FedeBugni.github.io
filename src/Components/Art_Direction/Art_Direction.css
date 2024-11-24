@@ -1,0 +1,17 @@
+.arts {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #000;
+}
+.art img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.art{
+    flex-basis: 31%; /* 31% of the parent container (arts) */
+}

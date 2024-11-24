@@ -1,0 +1,32 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 50px;
+    background: url(../../assets/hero_bg.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: end;  
+}
+.hero-container{
+    width: 100%;
+    display: flex;
+    align-items: top;
+}
+.hero-text {
+    text-align: top;
+    max-width: 45%;
+    padding: 100px 50px;
+}
+.hero-text h2 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.hero-text p {
+    max-width: 550px;
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
