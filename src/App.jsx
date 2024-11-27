@@ -1,25 +1,30 @@
 import React from 'react'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import Footer from './Components/Footer/Footer'
-import Title from './Components/Title/Title'
-import Art_Direction from './Components/Art_Direction/Art_Direction'
-import Set_Design from './Components/Set_Design/Set_Design'
+import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import Header from './components/Header/Header.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import NoPage from './pages/NoPage.jsx'
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Hero />
-      <div className="container">
-        <Title title='ART DIRECTION'/>
-        <Art_Direction />
-        <Title title='SET DESIGN'/>
-        <Set_Design />
-      </div>
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<NoPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
 
 export default App
+
+
+/// errore nel usare un router per navigare tra le pagine
+/// router: App.jsx
+/// pagine in pages folder
