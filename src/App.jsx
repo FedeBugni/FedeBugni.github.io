@@ -12,6 +12,7 @@ import Archive from './pages/Archive.jsx'
 import ArtDirection from './pages/ArtDirection.jsx'
 import SetDesign from './pages/SetDesign.jsx'
 import NoPage from './pages/NoPage.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
+      <Footer />
     </div>
   )
 }
