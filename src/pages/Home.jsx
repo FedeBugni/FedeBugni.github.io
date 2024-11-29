@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../Components/Hero/Hero'
+import Hero from '../components/Hero/Hero'
 import Footer from '../components/Footer/Footer'
 import Title from '../components/Title/Title'
 import Art_Direction from '../components/Art_Direction/Art_Direction'
