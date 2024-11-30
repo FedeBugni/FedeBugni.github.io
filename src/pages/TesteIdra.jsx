@@ -1,9 +1,7 @@
-import React from 'react'
-
 const TesteIdra = () => {
   return (
     <div>
-      <h2>Testa d'Idra</h2>
+      <h2>Testa d&#39;Idra</h2>
     </div>
   )
 }

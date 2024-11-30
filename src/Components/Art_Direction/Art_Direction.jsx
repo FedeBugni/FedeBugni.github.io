@@ -1,4 +1,3 @@
-import React from 'react'
 import './Art_Direction.css'
 import foto from '../../assets/foto_mancante.jpg'
 
