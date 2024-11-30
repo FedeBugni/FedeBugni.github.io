@@ -1,12 +1,8 @@
-import Hero from '../components/Hero/Hero'
-
 const About = () => {
   return (
     <div>
-      <Hero />
       <div className="container">
-        <h1>About</h1>
-        <p>Some information about the company</p>
+        <h1>About Us</h1>
       </div>
     </div>
   )

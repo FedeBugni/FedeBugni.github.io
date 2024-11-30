@@ -1,7 +1,7 @@
 const Installation = () => {
   return (
-    <div>
-      <h2>Installation</h2>
+    <div className='container'>
+      <h1>Installation</h1>
     </div>
   )
 }

@@ -16,6 +16,17 @@ a {
     cursor: pointer;
 }
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+.container h1 {
+    font-size: 4.3rem;
+    font-weight: 500;
+}
+.home-container {
     padding-left: 7%;
     padding-right: 7%;
 }

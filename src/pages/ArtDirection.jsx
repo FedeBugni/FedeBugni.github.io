@@ -1,7 +1,7 @@
 const artDirection = () => {
   return (
-    <div>
-      <h2>Art Direction</h2>
+    <div className='container'>
+      <h1>Art Direction</h1>
     </div>
   )
 }

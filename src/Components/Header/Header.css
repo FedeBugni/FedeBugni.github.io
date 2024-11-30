@@ -1,8 +1,8 @@
 header {
     width: 100%;
     background: #fff;
-    position: fixed;
-    padding: 20px 0;
+    position: sticky;
+    padding: 20px 8%;
     top: 0;
     left: 0;
     display: flex;
@@ -11,7 +11,7 @@ header {
     z-index: 10;
 }
 .logo {
-    width: 150px;
+    width: 130px;
 }
 header ul li {
     display: inline-block;
@@ -21,4 +21,5 @@ header ul li {
 }
 header ul li.active {
     text-decoration: underline;
+    text-underline-offset: 6px;
 }

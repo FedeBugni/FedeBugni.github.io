@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 100px 50px;
     background-size: cover;
     background: url(../../assets/hero_bg.png) center;

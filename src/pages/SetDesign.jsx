@@ -1,7 +1,7 @@
 const SetDesign = () => {
   return (
-    <div>
-      <h2>Set Design</h2>
+    <div className='container'>
+      <h1>Set Design</h1>
     </div>
   )
 }

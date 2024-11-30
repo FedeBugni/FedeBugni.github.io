@@ -2,7 +2,7 @@ import { Routes, Route  } from 'react-router-dom'
 import Header from './components/Header/Header.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import Contact from './pages/Contacts.jsx'
+import Contacts from './pages/Contacts.jsx'
 import Projects from './pages/Projects.jsx'
 import Installation from './pages/Installation.jsx'
 import TesteIdra from './pages/TesteIdra.jsx'
@@ -27,7 +27,7 @@ const App = () => {
           <Route path='/exhibition' element={<Exhibition />} />
           <Route path='/archive' element={<Archive />} />
           <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contacts' element={<Contacts />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
       <Footer />
@@ -36,8 +36,3 @@ const App = () => {
 }
 
 export default App
-
-
-/// errore nel usare un router per navigare tra le pagine
-/// router: App.jsx
-/// pagine in pages folder

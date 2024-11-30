@@ -15,7 +15,7 @@ const Header = () => {
     };
 
     return (
-        <header className='container'>
+        <header>
             <Link to='/' onClick={handleLogoClick}><img src={logo} alt="" className='logo'/></Link>
             <ul>
                 <Link to='/artDirection' onClick={() => handleLinkClick('/artDirection')}>
