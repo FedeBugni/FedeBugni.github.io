@@ -9,3 +9,4 @@ TODO:
 - [ ] Add the gif in the homepage
 - [ ] Use the correct font
 - [ ] Do the others sections in the homepage
+- [ ] Reconvert rem into px

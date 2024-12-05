@@ -20,12 +20,12 @@
 }
 .hero-text h2 {
     margin-top: 25px;
-    font-size: 1.3rem;
+    font-size: 18px;
     font-weight: 400;
 }
 .hero-text p {
     max-width: 550px;
     margin: 10px 30px;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 300;
 }
