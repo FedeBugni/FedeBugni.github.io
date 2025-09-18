@@ -1,7 +1,7 @@
 const TesteIdra = () => {
   return (
     <div className='container'>
-      <h1>Testa d&#39;Idra</h1>
+      <h1>Testa D&#39;Idra</h1>
     </div>
   )
 }

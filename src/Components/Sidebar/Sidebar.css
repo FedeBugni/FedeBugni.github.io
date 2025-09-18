@@ -1,0 +1,30 @@
+sidebar {
+    position: fixed;
+    background: #ffffff;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 25vw;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 1rem;
+    z-index: 10;
+}
+.logo {
+    width: 10rem;
+}
+sidebar ul {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+sidebar ul li {
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+sidebar ul li.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

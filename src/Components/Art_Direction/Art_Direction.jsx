@@ -15,7 +15,6 @@ const Art_Direction = () => {
       <div className="art">
         <img src={foto} alt="" /> 
       </div>
-
     </div>
   )
 }

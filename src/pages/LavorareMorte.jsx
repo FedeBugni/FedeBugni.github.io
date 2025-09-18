@@ -1,12 +1,13 @@
-const Archive = () => {
+
+const LavorareMorte = () => {
   return (
     <div>
       <div className='container'>
-        <h1>Archive</h1>
+        <p>Lavorare</p>
       </div>
     </div>
     
   )
 }
 
-export default Archive
+export default LavorareMorte

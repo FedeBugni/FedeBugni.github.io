@@ -5,8 +5,11 @@ Website for Sempo Studio.
 Made with ReactJS, Javascript, HTML and CSS.
 
 TODO:
+
 - [ ] Add the right images
-- [ ] Add the gif in the homepage
 - [ ] Use the correct font
 - [ ] Do the others sections in the homepage
-- [ ] Reconvert rem into px
+- 
+- [ ] Stesse dimensioni nei vari browser
+- [ ] Le pagine sono le singole opere
+- [ ] il menu sta a sinistra fisso e scrolla insieme alla pagina
