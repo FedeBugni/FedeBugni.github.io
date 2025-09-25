@@ -18,8 +18,8 @@ const Header = () => {
         <header>
             <Link to='/' onClick={handleLogoClick}><img src={logo} alt="" className='logo'/></Link>
             <ul>
-                <Link to='/tempio' onClick={() => handleLinkClick('/tempio')}>
-                    <li className={activeLink === '/tempio' ? 'active' : ''}>Art Direction</li>
+                <Link to='/artDirection' onClick={() => handleLinkClick('/artDirection')}>
+                    <li className={activeLink === '/artDirection' ? 'active' : ''}>Art Direction</li>
                 </Link>
                 <Link to='/setDesign' onClick={() => handleLinkClick('/setDesign')}>
                     <li className={activeLink === '/setDesign' ? 'active' : ''}>Set Design</li>

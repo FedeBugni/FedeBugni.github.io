@@ -6,6 +6,7 @@ import Set_Design from '../components/Set_Design/Set_Design'
 const Home = () => {
   return (
     <div>
+      <Hero />
       <div className="home-container">
         <Hero />
         <Title title='ART DIRECTION'/>

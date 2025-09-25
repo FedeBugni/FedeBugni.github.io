@@ -1,18 +1,19 @@
-import './Art_Direction.css'
+import './Set_Design.css'
 import foto from '../../assets/foto_mancante.jpg'
 
-const Art_Direction = () => {
+const Set_Design = () => {
   return (
-    <div className='arts'>
-      <div className="art">
+    <div className='designs'>
+      
+      <div className="design">
         <img src={foto} alt="" />
       </div>
 
-      <div className="art">
+      <div className="design">
         <img src={foto} alt="" />
       </div>
 
-      <div className="art">
+      <div className="design">
         <img src={foto} alt="" /> 
       </div>
 
@@ -20,4 +21,4 @@ const Art_Direction = () => {
   )
 }
 
-export default Art_Direction
+export default Set_Design

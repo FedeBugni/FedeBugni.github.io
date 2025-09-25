@@ -1,0 +1,15 @@
+.designs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.design img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.design{
+    flex-basis: 31%; /* 35% of the parent container (arts) */
+}

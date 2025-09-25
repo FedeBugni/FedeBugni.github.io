@@ -17,11 +17,10 @@ a {
 }
 .container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 75vw;
-    margin-left: 25vw;
+    width: 100%;
+    height: 90vh;
 }
 .container h1 {
     font-size: 4.3rem;
