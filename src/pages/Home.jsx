@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className="home-container">
+        <Hero />
         <Title title='ART DIRECTION'/>
         <Art_Direction />
         <Title title='SET DESIGN'/>

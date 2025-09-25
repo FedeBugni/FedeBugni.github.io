@@ -11,13 +11,14 @@ import NoPage from './pages/NoPage.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Sidebar from './components/Sidebar/Sidebar.jsx'
 import Tempio from "./pages/Tempio.jsx";
+import Home from "./pages/Home.jsx";
 
 const App = () => {
   return (
     <div>
       <Sidebar />
         <Routes>
-          <Route path='/' element={<Tempio />} />
+          <Route path='/' element={<Home />} />
           <Route path='/tempio' element={<Tempio />} />
           <Route path='/setDesign' element={<EcoLuminoso />} />
           <Route path='/projects' element={<Giudizio />} />
