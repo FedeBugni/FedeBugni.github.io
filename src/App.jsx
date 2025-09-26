@@ -6,7 +6,6 @@ import Contacts from './pages/Contacts.jsx'
 import Giudizio from './pages/Giudizio.jsx'
 import Morte from './pages/Morte.jsx'
 import Sfilata from './pages/Sfilata.jsx'
-import Exhibition from './pages/Exhibition.jsx'
 import Archive from './pages/Archive.jsx'
 import Tempio from './pages/./Tempio.jsx'
 import EcoLuminoso from './pages/Eco-luminoso.jsx'
@@ -19,15 +18,14 @@ const App = () => {
       <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/tempio' element={<Tempio />} />
-          <Route path='/eco-luminoso' element={<EcoLuminoso />} />
-          <Route path='/giudizio' element={<Giudizio />} />
-          <Route path='/morte' element={<Morte />} />
-          <Route path='/sfilata' element={<Sfilata />} />
-          <Route path='/exhibition' element={<Exhibition />} />
-          <Route path='/archive' element={<Archive />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contacts' element={<Contacts />} />
+          <Route path='/Tempio' element={<Tempio />} />
+          <Route path='/EcoLuminoso' element={<EcoLuminoso />} />
+          <Route path='/Giudizio' element={<Giudizio />} />
+          <Route path='/Morte' element={<Morte />} />
+          <Route path='/Sfilata' element={<Sfilata />} />
+          <Route path='/Archive' element={<Archive />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Contacts' element={<Contacts />} />
           <Route path='*' element={<NoPage />} />
         </Routes>
       <Footer />
