@@ -1,0 +1,75 @@
+.arts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    overflow-x: auto;
+    margin: 0 -7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.art {
+    flex: 0 0 auto;
+    width: 374px;
+    height: 597px;
+    min-width: 374px;
+    position: relative;
+}
+
+.art-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    transition: filter 0.3s ease
+}
+
+.art:hover img {
+    filter: blur(5px);
+}
+
+.art-text {
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    z-index: 2;
+}
+
+.art-title {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.art-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.art-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2));
+    border-radius: 10px;
+    z-index: 1;
+}
