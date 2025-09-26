@@ -1,26 +1,103 @@
+/* HEADER */
+
 header {
     width: 100%;
     background: #fff;
     position: sticky;
-    padding: 20px 8%;
+    padding: 0 2%;
     height: 10vh;
     top: 0;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
+    z-index: 1500;
 }
+
 .logo {
-    width: 13vh;
+    width: 125px;
 }
+
 header ul li {
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
 }
+
 header ul li.active {
     text-decoration: underline;
     text-underline-offset: 6px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.menu-icon::before {
+    top: -6px;
+}
+
+.menu-icon::after {
+    bottom: -6px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    position: fixed;
+    left: -300px;
+    top: 10vh;
+    width: 300px;
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco semi-trasparente */
+    backdrop-filter: blur(8px); /* Effetto smerigliato */
+    -webkit-backdrop-filter: blur(8px); /* Supporto per Safari */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    transform: translateX(300px);
+}
+
+.sidebar nav ul li {
+    margin: 70px 60px;
+    list-style: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sidebar nav ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8); /* Testo leggermente più scuro per il contrasto */
+}
+
+.sidebar nav ul li.active {
+    font-weight: bold;
 }
